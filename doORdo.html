@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doORdo</title>
+    <link rel="stylesheet" href="doORdo.css">
+    
+</head>
+<body>
+    
+<h1>doORdo</h1>
+<div id="todayDate"></div>
+
+<div class="todo-input-box">
+  <input type="text" id="taskInput" placeholder="Add task...">
+  <button id="addBtn">Add</button>
+</div>
+
+<div class="todo-list-box">
+  <ul id="taskList"></ul>
+</div>
+
+<div class="todo-footer-box">
+  <div class="footer-top">
+    <div class="footer-actions">
+      <button id="editBtn">Edit</button>
+      <button id="trashBtn">Trash</button>
+      <button id="importantBtn">Important</button>
+    </div>
+    <div id="taskCount">Remaining: 0 | Done: 0</div>
+  </div>
+</div>
+    <script src="doORdo.js"></script>
+</body>
+</html>
